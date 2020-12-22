@@ -1,0 +1,130 @@
+ul{background-color:white}
+a{color:black;
+  text-decoration: none;}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Noto Sans KR', sans-serif;}
+body, html {
+	height: 100%;
+	color: #777;
+	line-height: 1.8;
+}
+/* Create a Parallax Effect */
+.bgimg-1 {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("fighting.png");
+	min-height: 250px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+@media only screen and (max-device-width: 355px) {
+	#num {
+		font-size: 20px;
+	}
+	#title {
+		font-size: 24.5px;
+	}
+	p {
+		font-size: 13px;
+	}
+	#detail {
+		font-size: 5.5px
+	}
+	.w3-wide {
+		letter-spacing: 3px;
+	}
+	#detail {
+		display: none;
+	}
+	#sdetail {
+		display: visible;
+		font-size: 11px;
+	}
+	#two {
+		font-size: 13.5px;
+	}
+	#bot {
+		font-size: 24px;
+	}
+	#botbot {
+		font-size: 16.5px;
+	}
+}
+@media only screen and (min-device-width: 355.5px) and (max-device-width: 769.5px) {
+	#num {
+		font-size: 21px;
+	}
+	#title {
+		font-size: 30px;
+	}
+	p {
+		font-size: 15px;
+	}
+	#detail {
+		font-size: 12.5px;
+	}
+	.w3-wide {
+		letter-spacing: 3px;
+	}
+	#sdetail {
+		display: none;
+	}
+	#two {
+		font-size: 15.5px;
+	}
+	#bot {
+		font-size: 24px;
+	}
+	#botbot {
+		font-size: 16.5px;
+	}
+}
+@media only screen and (min-device-width: 770px) {
+	#sdetail {
+		display: none;
+	}
+	#num {
+		font-size: 24px;
+	}
+	#two {
+		font-size: 16.5px;
+	}
+	#bot {
+		font-size: 24.5px;
+	}
+	#botbot {
+		font-size: 17px;
+	}
+}
+.tab {
+	list-style: none;
+	padding:0;
+    margin:0;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+.tab li {
+    display:inline-block;
+    width:20%;
+    float:left;
+    line-height:40px;
+    text-align:center;
+    cursor:pointer;
+}
+.tab li:hover{
+	background:#ccc;
+}
+.tabcontent {
+	display: none;
+	background-color:white;
+	padding-top:10px;
+}
+ul.tab li.on{
+	background-color:#ccc;
+	color: #222;
+}
+.tabcontent.on {
+	display: block;
+}
